@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US">
-
-	<head>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<link rel="profile" href="https://gmpg.org/xfn/11">
-
-		<title>Documentation &amp; metadata &#8211; Data management</title>
+<!--[if lte IE 9]><html class="no-js lte-ie9" lang="en"><![endif]--><!--[if !(IE 8) | !(IE 9) ]><!--><html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<!-- <meta name="format-detection" content="telephone=no"> -->
+<!--<meta name="viewport" content="width=device-width" />-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The libraries of the Massachusetts Institute of Technology - Search, Visit, Research, Explore">
+<title>Documentation &amp; metadata | Data management</title>
+<meta property="og:title" content="Documentation &amp; metadata | Data management">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/wp-content/themes/libraries/images/mit-libraries-logo-black-yellow-1200-1200.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:alt" content="MIT Libraries logo">
+<meta property="og:description" content="Data documentation, also known as metadata, helps you understand your data in detail, and also helps other researchers find, use, and properly cite your data. Various metadata standards are available for particular file formats and disciplines. General guidelines are provided below. For more details, see materials from our workshop on file organization. For help in documenting [&hellip;]">
+<meta property="og:url" content="/store/documentation/">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="/static_output/xmlrpc.php">
 <meta name="robots" content="noindex, nofollow">
+<link rel="dns-prefetch" href="//netdna.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="Data management &raquo; Feed" href="/static_output/feed/">
 <link rel="alternate" type="application/rss+xml" title="Data management &raquo; Comments Feed" href="/static_output/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="Data management &raquo; Documentation &amp; metadata Comments Feed" href="/static_output/store/documentation/feed/">
-<script>
+<script type="text/javascript">
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9"}};
 /*! This file is auto-generated */
 !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
-<style>img.wp-smiley,
+<style type="text/css">img.wp-smiley,
 img.emoji {
 	display: inline !important;
 	border: none !important;
@@ -31,12 +43,21 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }</style>
-	<link rel="stylesheet" id="wp-block-library-css" href="/static_output/wp-includes/css/dist/block-library/style.min.css?ver=5.9" media="all">
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
-<link rel="stylesheet" id="twentytwenty-style-css" href="/static_output/wp-content/themes/twentytwenty/style.css?ver=1.9" media="all">
-<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e22658; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e22658; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e22658; }.fill-children-accent,.fill-children-accent * { fill: #e22658; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #e41a50; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #e41a50; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #020202; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #020202; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #7f7f7f; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #262626; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #262626; }</style>
-<link rel="stylesheet" id="twentytwenty-print-style-css" href="/static_output/wp-content/themes/twentytwenty/print.css?ver=1.9" media="print">
-<script src="/static_output/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.9" id="twentytwenty-js-js" async></script>
+	<link rel="stylesheet" id="wp-block-library-css" href="/static_output/wp-includes/css/dist/block-library/style.min.css?ver=5.9" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<link rel="stylesheet" id="bootstrap-css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css?ver=5.9" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css?ver=5.9" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-style-css" href="/static_output/wp-content/themes/libraries-child-new/style.css?ver=5.9" type="text/css" media="all">
+<link rel="stylesheet" id="font-open-sans-css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic,700,700italic" type="text/css" media="all">
+<link rel="stylesheet" id="libraries-global-css" href="/static_output/wp-content/themes/libraries/css/build/minified/global.css?ver=2.2.4-master-9e3893f" type="text/css" media="all">
+<link rel="stylesheet" id="child-style-css" href="/static_output/wp-content/themes/libraries-child-new/style.css?ver=2.2.4" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='/wp-content/themes/libraries/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="mitlib-forms-css" href="/static_output/wp-content/themes/libraries/css/build/minified/forms.min.css?ver=2.2.4-master-9e3893f" type="text/css" media="all">
+<script type="text/javascript" src="/static_output/wp-content/themes/libraries/js/jquery.min.js?ver=1.11.1-local" id="jquery-js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js?ver=1" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="/static_output/wp-content/themes/libraries/js/modernizr.js?ver=2.8.1" id="modernizr-js"></script>
 <link rel="https://api.w.org/" href="/static_output/wp-json/">
 <link rel="alternate" type="application/json" href="/static_output/wp-json/wp/v2/pages/48">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/static_output/xmlrpc.php?rsd">
@@ -46,262 +67,346 @@ img.emoji {
 <link rel="shortlink" href="/static_output/?p=48">
 <link rel="alternate" type="application/json+oembed" href="/static_output/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fstore%2Fdocumentation%2F">
 <link rel="alternate" type="text/xml+oembed" href="/static_output/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fstore%2Fdocumentation%2F&#038;format=xml">
-	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
-	<style id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
+	<script>
+		todayDate="";
+	</script>
+</head>
+
+<body class="page-template page-template-page page-template-page-php page page-id-48 page-child parent-pageid-16 page-documentation full-width childTheme childPage single-author">
+	<div id="skip"><a href="#content">Skip to Main Content</a></div>
+	<div class="wrap-page">
+		<header class="header-main flex-container flex-end">
 	
-	</head>
+			<nav>
+	<button class="menu--toggle"><!-- Mobile Hamburger icon -->
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18.909px" height="13.091px" viewbox="2.182 6.545 18.909 13.091" enable-background="new 2.182 6.545 18.909 13.091" xml:space="preserve"><path d="M2.909,6.545h17.454c0.197,0,0.367,0.072,0.512,0.216c0.145,0.144,0.216,0.314,0.216,0.511s-0.071,0.367-0.216,0.511
+		c-0.145,0.144-0.314,0.216-0.512,0.216H2.909c-0.197,0-0.367-0.072-0.511-0.216C2.254,7.639,2.182,7.469,2.182,7.272
+		s0.072-0.367,0.216-0.511C2.542,6.617,2.712,6.545,2.909,6.545z M20.363,13.818H2.909c-0.197,0-0.367-0.072-0.511-0.216
+		s-0.216-0.314-0.216-0.511c0-0.196,0.072-0.367,0.216-0.511s0.314-0.216,0.511-0.216h17.454c0.197,0,0.367,0.072,0.512,0.216
+		s0.216,0.314,0.216,0.511c0,0.197-0.071,0.367-0.216,0.511S20.561,13.818,20.363,13.818z M20.363,19.636H2.909
+		c-0.197,0-0.367-0.071-0.511-0.216s-0.216-0.314-0.216-0.511s0.072-0.367,0.216-0.511c0.144-0.145,0.314-0.217,0.511-0.217h17.454
+		c0.197,0,0.367,0.072,0.512,0.217c0.145,0.144,0.216,0.314,0.216,0.511s-0.071,0.366-0.216,0.511S20.561,19.636,20.363,19.636z"></path>
+		</svg>
+	</button><!-- end hamburger icon -->
+</nav>
 
-	<body class="page-template page-template-page page-template-page-php page page-id-48 page-child parent-pageid-16 custom-background wp-embed-responsive singular missing-post-thumbnail has-no-pagination showing-comments hide-avatars footer-top-visible">
-
-		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
-		<header id="site-header" class="header-footer-group">
-
-			<div class="header-inner section-inner">
-
-				<div class="header-titles-wrapper">
-
-					
-					<div class="header-titles">
-
-						<div class="site-title faux-heading"><a href="/static_output/">Data management</a></div>
-<div class="site-description">Helping MIT faculty and researchers manage, store, and share data they produce</div>
-<!-- .site-description -->
-					</div>
-<!-- .header-titles -->
-
-					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-						<span class="toggle-inner">
-							<span class="toggle-icon">
-								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)"></path></svg>							</span>
-							<span class="toggle-text">Menu</span>
-						</span>
-					</button><!-- .nav-toggle -->
-
-				</div>
-<!-- .header-titles-wrapper -->
-
-				<div class="header-navigation-wrapper">
-
-					
-							<nav class="primary-menu-wrapper" aria-label="Horizontal">
-
-								<ul class="primary-menu reset-list-style">
-
-								<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-574"><a href="/static_output/">Home</a></li>
-<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575">
-<a href="/static_output/services/">Services</a><span class="icon"></span>
-<ul class="sub-menu">
-	<li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="/static_output/services/">List of services</a></li>
-	<li id="menu-item-578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-578"><a href="/static_output/services/workshops/">Workshops</a></li>
-	<li id="menu-item-577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577"><a href="/static_output/services/visitors/">Information for visitors</a></li>
-</ul>
-</li>
-<li id="menu-item-456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-456">
-<a href="/static_output/plan/">Make a plan</a><span class="icon"></span>
-<ul class="sub-menu">
-	<li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="/static_output/plan/write/">Write a data management plan</a></li>
-	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="/static_output/plan/guides/">Other guides to data management</a></li>
-	<li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="/static_output/plan/funder-requirements/">Funder requirements</a></li>
-</ul>
-</li>
-<li id="menu-item-457" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-457">
-<a href="/static_output/store/">Store your data</a><span class="icon"></span>
-<ul class="sub-menu">
-	<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a href="/static_output/store/organize/">Organize your files</a></li>
-	<li id="menu-item-580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a href="/static_output/store/backups/">Data storage, backups, &amp; security</a></li>
-	<li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-48 current_page_item menu-item-581"><a href="/static_output/store/documentation/" aria-current="page">Documentation &amp; metadata</a></li>
-	<li id="menu-item-582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a href="/static_output/store/formats/">File formats for long-term access</a></li>
-	<li id="menu-item-589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="/static_output/store/electronic-lab-notebooks/">Electronic Lab Notebooks (ELNs)</a></li>
-	<li id="menu-item-590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590"><a href="/static_output/store/osf/">Open Science Framework</a></li>
-</ul>
-</li>
-<li id="menu-item-576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-576">
-<a href="/static_output/share/">Share your data</a><span class="icon"></span>
-<ul class="sub-menu">
-	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="/static_output/plan/why/">Why manage &amp; share your data?</a></li>
-	<li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a href="/static_output/share/find-repository/">Find a data repository</a></li>
-	<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="/static_output/share/journal-requirements/">Journal requirements</a></li>
-	<li id="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a href="/static_output/share/confidentiality/">Confidentiality &amp; intellectual property</a></li>
-</ul>
-</li>
-
-								</ul>
-
-							</nav><!-- .primary-menu-wrapper -->
-
-						
-				</div>
-<!-- .header-navigation-wrapper -->
-
-			</div>
-<!-- .header-inner -->
+<!-- Menu shown on mobile screens, when the hamburger icon is tapped. -->
+<nav id="nav-mobile" class="nav-main hidden-non-mobile" aria-hidden="true">
+	<ul>
+		<li><a href="/static_output/search" class="no-underline mobile-nav-link hide-mobile-nav-link">Search</a></li>
+		<li><a href="/static_output/hours" class="no-underline mobile-nav-link hide-mobile-nav-link">Hours & locations</a></li>
+		<li><a href="/static_output/borrow" class="no-underline mobile-nav-link hide-mobile-nav-link">Borrow & request</a></li>
+		<li><a href="/static_output/research-support" class="no-underline mobile-nav-link hide-mobile-nav-link">Research support</a></li>
+		<li><a href="/static_output/about" class="no-underline mobile-nav-link hide-mobile-nav-link">About</a></li>
+	</ul>
+</nav>
 
 			
-		</header><!-- #site-header -->
+<h1 class="name-site group nav-logo">
+	<a href="/static_output/" class="logo-mit-lib">
+		<svg xmlns="http://www.w3.org/2000/svg" viewbox="5 -3 210 95"><title>MIT Libraries logo</title>
+<path d="M8.12,9H20l4.35,15.65c.17.57.36,1.31.58,2.22s.44,1.81.67,2.68.53,2.12.8,3.25h.1c.23-1.13.48-2.22.75-3.25.2-.87.42-1.76.65-2.67s.43-1.65.6-2.22L32.92,9h12V44.75h-8.1V22.66c0-.93,0-1.95.1-3.05h-.1c-.27,1-.5,2-.7,2.85s-.38,1.61-.53,2.22l-.42,1.58-5.1,18.49h-7.3L17.67,26.3c-.1-.33-.25-.87-.45-1.6s-.38-1.48-.55-2.25-.42-1.82-.67-2.85h-.1v3c0,.8,0,1.6.08,2.4a8.53,8.53,0,0,1,0,1.75v18H8V9Zm40,0H57V44.75H48.12Zm22.1,7.45H59.82V9H89.57v7.45H79.07v28.3H70.22ZM8.12,50H17V78.25H33.64v7.5H8.12Zm28.7,0H45v6.6H36.82Zm0,10.15H45v25.6H36.82Zm27,26.4a9.82,9.82,0,0,1-4.55-1,7.9,7.9,0,0,1-3.2-3H56v3.2H48.2V50h8.15V63h.15a9.45,9.45,0,0,1,2.9-2.55,8.62,8.62,0,0,1,4.37-1,9.86,9.86,0,0,1,4.53,1,10,10,0,0,1,3.45,2.85A13.51,13.51,0,0,1,74,67.6a17.89,17.89,0,0,1,.7,5.4,19.45,19.45,0,0,1-.78,5.72A12.53,12.53,0,0,1,71.72,83a9.48,9.48,0,0,1-3.45,2.67A10.63,10.63,0,0,1,63.82,86.55Zm-2.3-6.45a4.14,4.14,0,0,0,3.67-1.92,9.45,9.45,0,0,0,1.28-5.27,9.74,9.74,0,0,0-1.28-5.3,4.2,4.2,0,0,0-3.77-2,4.43,4.43,0,0,0-4,2.1A9.7,9.7,0,0,0,56.12,73a8.49,8.49,0,0,0,1.45,5.17,4.69,4.69,0,0,0,4,2Zm15.11-20h7.8v4h.15a9.56,9.56,0,0,1,3-3.35,7.29,7.29,0,0,1,4-1,4.57,4.57,0,0,1,1.6.2v7H93a7.34,7.34,0,0,0-6,1.27q-2.16,1.78-2.16,6v11.5H76.63Zm26,26.3a12.1,12.1,0,0,1-3.53-.5,7.55,7.55,0,0,1-2.77-1.5A7,7,0,0,1,94.48,82a8.09,8.09,0,0,1-.66-3.4,7.29,7.29,0,0,1,.78-3.52,6.74,6.74,0,0,1,2.12-2.35,10.79,10.79,0,0,1,3.1-1.43,27,27,0,0,1,3.77-.75,24.35,24.35,0,0,0,5-1A1.93,1.93,0,0,0,110,67.7a2.56,2.56,0,0,0-.83-2,3.91,3.91,0,0,0-2.67-.7,4.41,4.41,0,0,0-3,.85,3.66,3.66,0,0,0-1.2,2.45H94.8a8.52,8.52,0,0,1,.8-3.4,8.14,8.14,0,0,1,2.17-2.8,10.65,10.65,0,0,1,3.58-1.9,16.29,16.29,0,0,1,5-.7,19.72,19.72,0,0,1,4.9.52,9.7,9.7,0,0,1,3.4,1.58,7.31,7.31,0,0,1,2.45,3,10.5,10.5,0,0,1,.8,4.25v12.9a13.08,13.08,0,0,0,.17,2.42,1.8,1.8,0,0,0,.73,1.23v.35h-7.9a3.53,3.53,0,0,1-.5-1.12,14.56,14.56,0,0,1-.35-1.72h0a8.4,8.4,0,0,1-2.73,2.54,10,10,0,0,1-4.68,1Zm2.6-5.2a5.46,5.46,0,0,0,3.68-1.2,4.27,4.27,0,0,0,1.42-3.35v-3a11.5,11.5,0,0,1-1.87.73c-.72.22-1.5.43-2.34.62a10.36,10.36,0,0,0-3.4,1.27,2.48,2.48,0,0,0-1,2.17,2.43,2.43,0,0,0,1,2.2,4.53,4.53,0,0,0,2.5.55h0Zm15.87-21h7.77v4H129a9.56,9.56,0,0,1,3-3.35,7.29,7.29,0,0,1,4-1,4.57,4.57,0,0,1,1.6.2v7h-.2a7.34,7.34,0,0,0-6,1.27c-1.49,1.22-2.24,3.22-2.23,6V85.75H121V60.15ZM140,50.1h8.13v6.6H140Zm0,10.15h8.13v25.5H140ZM164,86.6a15,15,0,0,1-5.7-1,12.07,12.07,0,0,1-4.3-2.85,12.84,12.84,0,0,1-2.7-4.33,15.07,15.07,0,0,1-1-5.4,14.74,14.74,0,0,1,1-5.33,12.72,12.72,0,0,1,2.7-4.3,12.58,12.58,0,0,1,4.13-2.94,14.62,14.62,0,0,1,10.28-.17,12.29,12.29,0,0,1,3.83,2.35A12.7,12.7,0,0,1,175.65,68a20.83,20.83,0,0,1,1.08,7.13H158.32a7.53,7.53,0,0,0,1.8,4.1,5.14,5.14,0,0,0,4,1.5,4.84,4.84,0,0,0,2.65-.68,4.28,4.28,0,0,0,1.6-1.87h8a9.47,9.47,0,0,1-1.5,3.33,10.85,10.85,0,0,1-2.8,2.73A12.06,12.06,0,0,1,168.49,86a15.31,15.31,0,0,1-4.52.5Zm4.5-16.3a6,6,0,0,0-1.5-3.65,4.37,4.37,0,0,0-3.3-1.35,4.64,4.64,0,0,0-3.6,1.35,7,7,0,0,0-1.65,3.65Zm21.9,16.35q-5.66,0-9-2.42a8.34,8.34,0,0,1-3.52-6.78h7.7A4.15,4.15,0,0,0,187,80.3a5.06,5.06,0,0,0,3.25,1,5.61,5.61,0,0,0,2.92-.65,2.08,2.08,0,0,0,1.08-1.9,1.82,1.82,0,0,0-.55-1.37,4.08,4.08,0,0,0-1.45-.85,11.46,11.46,0,0,0-2.08-.5c-.78-.11-1.59-.25-2.42-.42q-1.65-.3-3.3-.72a10,10,0,0,1-3-1.28,6.41,6.41,0,0,1-2.12-2.27,7.47,7.47,0,0,1-.8-3.68,7.21,7.21,0,0,1,.87-3.55,7.61,7.61,0,0,1,2.35-2.66,11.15,11.15,0,0,1,3.53-1.55,17.18,17.18,0,0,1,4.28-.52c3.63,0,6.42.73,8.35,2.2a8,8,0,0,1,3.2,6h-7.5a3,3,0,0,0-1.33-2.37,5.48,5.48,0,0,0-2.78-.62,5,5,0,0,0-2.52.58A1.9,1.9,0,0,0,186,67a1.34,1.34,0,0,0,.5,1.1,4.27,4.27,0,0,0,1.35.67,13.55,13.55,0,0,0,2,.48l2.33.4c1.13.2,2.27.44,3.42.73a10.5,10.5,0,0,1,3.17,1.32,7,7,0,0,1,2.3,2.42,7.84,7.84,0,0,1,.9,4,7.35,7.35,0,0,1-3.32,6.38,11.84,11.84,0,0,1-3.7,1.6,18.75,18.75,0,0,1-4.66.5Z" style="fill:#fff;"></path></svg>
+		<span class="sr">MIT Libraries</span>
+	</a><!-- End MIT Libraries Logo -->
+</h1>
+<!-- End H1.name-site -->
+
+			
+<!-- Menu shown on non-mobile screens -->
+<nav class="nav-main hidden-mobile" aria-label="Primary">
+	<ul class="nav-main-list flex-container">
+		<li class="link-primary flex-end">
+			<h2 class="main-nav-header">
+				<a id="main-nav-searchmenu-title" href="#" class="no-underline search-link main-nav-link menu-control">Search</a>
+			</h2>
+			<div aria-labelledby="main-nav-searchmenu-title" id="main-nav-searchmenu" class="links-sub flex-container group">
+				<div class="col-1 flex-item">
+					<h3 class="heading-col">Start here</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/search">Search tools home</a></li>
+						<li><a href="/static_output/quicksearch">Quick search <span class="about">Books, articles, and more at MIT</span></a></li>
+						<li><a href="/static_output/vera">Vera <span class="about">E-journals &amp; databases</span></a></li>
+						<li><a href="/static_output/barton">Barton catalog <span class="about">Classic catalog search</span></a></li>
+						<li><a href="/static_output/worldcat">WorldCat<span class="about">Books &amp; more worldwide</span></a></li>
+						<li><a href="/static_output/barton-reserves">Course reserves</a></li>
+					</ul>
+				</div>
+				<div class="col-2 flex-item">
+					<h3 class="heading-col">Also try</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/fulltext">FullText Finder <span class="about">Find specific citations</span></a></li>
+						<li><a href="/static_output/google-scholar-tips">Google Scholar for MIT <span class="about">Change settings to get better access</span></a></li>
+						<li><a href="/static_output/dspace">DSpace@MIT <span class="about">MIT research</span></a></li>
+						<li><a href="/static_output/dome">Dome <span class="about">MIT-digitized images, maps, etc.</span></a></li>
+						<li><a href="/static_output/site-search">Site search</a></li>
+					</ul>
+				</div>
+			</div>
+<!-- end div.links-sub -->
+		</li>
+<!-- end div.links-primary -->
+		<li class="link-primary flex-end">
+			<h2 class="main-nav-header">
+				<a id="main-nav-hoursmenu-title" href="#" class="no-underline main-nav-link menu-control">Hours &amp; locations</a>
+			</h2>
+			<div aria-labelledby="main-nav-hoursmenu-title" id="main-nav-hoursmenu" class="links-sub flex-container group">
+				<div class="col-1 flex-item">
+					<h3 class="heading-col">Locations</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/hours">Hours and locations home</a></li>
+						<li><a href="/static_output/barker">Barker Library</a></li>
+						<li><a href="/static_output/dewey">Dewey Library</a></li>
+						<li><a href="/static_output/hayden">Hayden Library</a></li>
+						<li><a href="/static_output/rotch">Rotch Library</a></li>
+						<li><a href="/static_output/distinctive-collections">Distinctive Collections</a></li>
+						<li><a href="/static_output/music">Lewis Music Library</a></li>
+						<li><a href="/static_output/lsa">Library Storage Annex</a></li>
+					</ul>
+				</div>
+				<div class="col-2 flex-item">
+					<h3 class="heading-col">Using the Libraries</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/locations">Map of locations</a></li>
+						<li><a href="/static_output/study">Study spaces</a></li>
+						<li><a href="/static_output/disabilities">Persons with disabilities</a></li>
+						<li><a href="/static_output/copying">Scan, copy, print</a></li>
+						<li><a href="/static_output/exhibits">Exhibits &amp; galleries</a></li>
+						<li><a href="/static_output/visitors">Non-MIT visitors</a></li>
+						<li><a href="/static_output/use-policies">Library use policy</a></li>
+					</ul>
+				</div>
+			</div>
+<!-- end div.links-sub -->
+		</li>
+<!-- end div.links-primary -->
+		<li class="link-primary flex-end">
+			<h2 class="main-nav-header">
+				<a id="main-nav-borrowmenu-title" href="#" class="no-underline main-nav-link menu-control">Borrow &amp; request</a>
+			</h2>
+			<div aria-labelledby="main-nav-borrowmenu-title" id="main-nav-borrowmenu" class="links-sub flex-container group">
+				<div class="col-1 flex-item">
+					<h3 class="heading-col">Renew, request, suggest</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/borrow">Borrow &amp; request home</a></li>
+						<li><a href="/static_output/barton-account">Your Account - Barton <span class="about">Renew MIT items</span></a></li>
+						<li><a href="/static_output/barton">Barton catalog <span class="about">Request items owned by MIT</span></a></li>
+						<li><a href="/static_output/worldcat">WorldCat <span class="about">Request items not owned by MIT</span></a></li>
+						<li><a href="/static_output/illiad">ILLiad <span class="about">Track your Interlibrary Borrowing requests</span></a></li>
+						<li><a href="/static_output/suggest-purchase">Suggest a purchase</a></li>
+					</ul>
+				</div>
+				<div class="col-2 flex-item">
+					<h3 class="heading-col">More information</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/accounts">Accounts overview <span class="about">Barton, ILLiad, Aeon, etc.</span></a></li>
+						<li><a href="/static_output/reserves">Course reserves &amp; TIP</a></li>
+						<li><a href="/static_output/borrow-direct">Borrow Direct <span class="about">Request items from Harvard, Yale, etc.</span></a></li>
+						<li><a href="/static_output/otherlibraries">Visit non-MIT libraries <span class="about">Harvard, Borrow Direct, etc.</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="link-primary flex-end">
+			<h2 class="main-nav-header">
+				<a id="main-nav-researchmenu-title" href="#" class="no-underline main-nav-link menu-control">Research support</a>
+			</h2>
+			<div aria-labelledby="main-nav-researchmenu-title" id="main-nav-researchmenu" class="links-sub flex-container push group">
+				<div class="col-1 flex-item">
+					<h3 class="heading-col">Help &amp; useful tools</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/research-support">Research support home</a></li>
+						<li><a href="/static_output/ask">Ask us <span class="about">Email, chat, call, drop by</span></a></li>
+						<li><a href="/static_output/experts">Research guides &amp; expert librarians <span class="about">For every research interest</span></a></li>
+						<li><a href="/static_output/authenticate">Authenticate to online resources <span class="about">Tips &amp; tricks</span></a></li>
+						<li><a href="/static_output/new-books">New books by subject <span class="about">Browse or subscribe to RSS feeds</span></a></li>
+					</ul>
+				</div>
+				<div class="col-2 flex-item">
+					<h3 class="heading-col">Publishing &amp; content management</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/references">Citation &amp; writing tools <span class="about">Mendeley, Zotero, &amp; Overleaf</span></a></li>
+						<li><a href="/static_output/citing">Citing sources <span class="about">Avoid plagiarism, format references, etc.</span></a></li>
+						<li><a href="/static_output/data-services">Data services <span class="about">GIS, data management, statistical support</span></a></li>
+						<li><a href="/static_output/scholarly">Scholarly publishing <span class="about">Open access &amp; copyright</span></a></li>
+						<li><a href="/static_output/apis">APIs for scholarly resources</a></li>
+					</ul>
+				</div>
+			</div>
+<!-- end div.links-sub -->
+		</li>
+<!-- end div.links-primary -->
+		<li class="link-primary flex-end">
+			<h2 class="main-nav-header">
+				<a id="main-nav-aboutmenu-title" href="#" class="no-underline main-nav-link menu-control">About</a>
+			</h2>
+			<div aria-labelledby="main-nav-aboutmenu-title" id="main-nav-aboutmenu" class="links-sub flex-container push group">
+				<div class="col-1 flex-item">
+					<h3 class="heading-col">About the Libraries</h3>
+					<ul class="list-unbulleted">
+						<li><a href="/static_output/about/">About us home</a></li>
+						<li><a href="/static_output/contact">Contact us</a></li>
+						<li><a href="/static_output/jobs">Jobs</a></li>
+						<li><a href="/static_output/giving">Giving to the MIT Libraries</a></li>
+					</ul>
+				</div>
+				<div class="col-2 flex-item">
+					<h3 class="heading-col">News, events, &amp; exhibits</h3>
+					<a href="/static_output/events">Classes &amp; events</a>
+					<a href="/static_output/news">News</a>
+					<a href="/static_output/exhibits">Exhibits &amp; galleries</a>
+					<a href="/static_output/news/in-the-media">In the media</a>
+					<a href="/static_output/mit-reads/">MIT Reads</a>
+				</div>
+			</div>
+<!-- end div.links-sub -->
+		</li>
+<!-- end div.links-primary -->
+		<li class="link-primary flex-end small chat push">
+			<h2 class="main-nav-header">
+				<a id="main-nav-askusmenu-title" href="#" class="no-underline main-nav-link menu-control"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16.593px" height="16px" viewbox="0 0 16.593 16" enable-background="new 0 0 16.593 16" xml:space="preserve"><path d="M16.593 6.278c0 1.074-0.074 2.148-0.241 3.185 -0.204 1.353-1.722 2.574-3.055 2.722 -1.353 0.131-2.686 0.204-4.02 0.223L5.74 15.833C5.63 15.944 5.481 16 5.334 16c-0.094 0-0.167-0.019-0.241-0.037C4.871 15.87 4.74 15.647 4.74 15.407V12.37c-0.481-0.036-0.963-0.055-1.443-0.111 -1.334-0.148-2.853-1.443-3.074-2.796C0.074 8.426 0 7.352 0 6.296c0-1.092 0.074-2.185 0.223-3.24 0.222-1.352 1.74-2.648 3.074-2.797C4.963 0.093 6.63 0 8.297 0s3.333 0.093 5 0.259c1.333 0.149 2.851 1.445 3.055 2.797C16.519 4.111 16.593 5.204 16.593 6.278"></path></svg><span>Ask Us</span></a>
+			</h2>
+			<div aria-labelledby="main-nav-askusmenu-title" id="main-nav-askusmenu" class="links-sub push">
+				<div class="wrap-button-chat">
+					<div id="libchat_be2c654b63dd43f31c56295ee5d78d88"></div>
+				</div>
+				<a class="more" href="/static_output/ask">More ways to ask us</a>
+			</div>
+		</li>
+		<li class="link-primary flex-end small">
+			<h2 class="main-nav-header">
+				<a href="/static_output/accounts" class="no-underline main-nav-link account-link">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="15.4" height="16" viewbox="0 0 15.4 16" enable-background="new 0 0 15.445 16" xml:space="preserve"><path d="M13.4 15.7C12.2 15.9 10.4 16 7.7 16c-5.4 0-7.3-0.6-7.3-0.6 -0.3-0.1-0.4-0.4-0.4-0.7 0.3-1.6 1.2-2.5 2.5-3.3 0.3-0.2 0.8-0.4 1.2-0.6 0.8-0.3 1.8-0.7 2-1.3C5.8 9.2 5.7 8.6 5.2 7.9c-1.4-2.3-1.7-4.3-0.8-5.9C5.1 0.7 6.4 0 7.7 0c1.4 0 2.6 0.7 3.3 2 0.9 1.6 0.7 3.6-0.8 5.9C9.8 8.6 9.6 9.2 9.8 9.6c0.2 0.6 1.2 1 2 1.3 0.4 0.2 0.9 0.4 1.2 0.6 1.2 0.8 2.1 1.6 2.5 3.3 0.1 0.3-0.1 0.6-0.4 0.7C15 15.4 14.5 15.6 13.4 15.7"></path></svg><span>Account</span>
+				</a>
+			</h2>
+		</li>
+	</ul>
+</nav>
+			
+			<a class="link-logo-mit" href="http://www.mit.edu/" alt="Massaschusetts Institute of Technology logo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="54" height="28" viewbox="0 0 54 28" enable-background="new 0 0 54 28" xml:space="preserve" class="logo-mit"><rect x="28.9" y="8.9" width="5.8" height="19.1" class="color"></rect><rect width="5.8" height="28"></rect><rect x="9.6" width="5.8" height="18.8"></rect><rect x="19.3" width="5.8" height="28"></rect><rect x="38.5" y="8.9" width="5.8" height="19.1"></rect><rect x="38.8" width="15.2" height="5.6"></rect><rect x="28.9" width="5.8" height="5.6"></rect></svg>
+				<span class="sr">MIT Logo</span>
+			</a><!-- End MIT Logo -->
+
+			
+<a href="/static_output/search" class="link-site-search hidden-non-mobile">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="16" viewbox="0 0 12 12" alt="search" class="icon-search"><path d="M7.273 0.727q1.187 0 2.19 0.585t1.588 1.588 0.585 2.19-0.585 2.19-1.588 1.588-2.19 0.585q-1.278 0-2.33-0.676l-3.284 3.301q-0.295 0.284-0.688 0.284-0.403 0-0.688-0.284t-0.284-0.688 0.284-0.688l3.301-3.284q-0.676-1.051-0.676-2.33 0-1.188 0.585-2.19t1.588-1.588 2.19-0.585zM7.273 8q0.591 0 1.128-0.23t0.929-0.622 0.622-0.929 0.23-1.128-0.23-1.128-0.622-0.929-0.929-0.622-1.128-0.23-1.128 0.23-0.929 0.622-0.622 0.929-0.23 1.128 0.23 1.128 0.622 0.929 0.929 0.622 1.128 0.23z"></path></svg>
+	<span class="bottom">Search</span>
+</a><!-- End /search -->
+
+<a href="/static_output/accounts" class="link-account hidden-non-mobile">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="15.4" height="16" viewbox="0 0 15.4 16" enable-background="new 0 0 15.445 16" xml:space="preserve" class="icon-account"><path d="M13.4 15.7C12.2 15.9 10.4 16 7.7 16c-5.4 0-7.3-0.6-7.3-0.6 -0.3-0.1-0.4-0.4-0.4-0.7 0.3-1.6 1.2-2.5 2.5-3.3 0.3-0.2 0.8-0.4 1.2-0.6 0.8-0.3 1.8-0.7 2-1.3C5.8 9.2 5.7 8.6 5.2 7.9c-1.4-2.3-1.7-4.3-0.8-5.9C5.1 0.7 6.4 0 7.7 0c1.4 0 2.6 0.7 3.3 2 0.9 1.6 0.7 3.6-0.8 5.9C9.8 8.6 9.6 9.2 9.8 9.6c0.2 0.6 1.2 1 2 1.3 0.4 0.2 0.9 0.4 1.2 0.6 1.2 0.8 2.1 1.6 2.5 3.3 0.1 0.3-0.1 0.6-0.4 0.7C15 15.4 14.5 15.6 13.4 15.7"></path></svg>
+	<span class="bottom">Account</span>
+</a><!-- End /barton-account -->
+
+<a href="/static_output/contact" class="link-contact hidden-non-mobile">
+	<i class="icon-book" aria-hidden="true"></i>
+	<span class="bottom">Contact</span>
+</a><!-- End /contact -->
+
+		</header>
 
 		
-<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
-
-	<div class="menu-modal-inner modal-inner">
-
-		<div class="menu-wrapper section-inner">
-
-			<div class="menu-top">
-
-				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
-					<span class="toggle-text">Close Menu</span>
-					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>				</button><!-- .nav-toggle -->
-
-				
-					<nav class="mobile-menu" aria-label="Mobile">
-
-						<ul class="modal-menu reset-list-style">
-
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-574">
-<div class="ancestor-wrapper"><a href="/static_output/">Home</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575">
-<div class="ancestor-wrapper">
-<a href="/static_output/services/">Services</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-575 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewbox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>
+	<div class="betterBreadcrumbs hidden-phone" role="navigation" aria-label="breadcrumbs">
+	<span><a href="/static_output/">Libraries home</a></span>
+	<span><a href="/static_output/">Data management</a></span>
+	<span><a href="/static_output/store/">Store your data</a></span><span>Documentation &amp; metadata</span>
 </div>
-<!-- .ancestor-wrapper -->
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587">
-<div class="ancestor-wrapper"><a href="/static_output/services/">List of services</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-578">
-<div class="ancestor-wrapper"><a href="/static_output/services/workshops/">Workshops</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577">
-<div class="ancestor-wrapper"><a href="/static_output/services/visitors/">Information for visitors</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-456">
-<div class="ancestor-wrapper">
-<a href="/static_output/plan/">Make a plan</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-456 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewbox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>
-</div>
-<!-- .ancestor-wrapper -->
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588">
-<div class="ancestor-wrapper"><a href="/static_output/plan/write/">Write a data management plan</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572">
-<div class="ancestor-wrapper"><a href="/static_output/plan/guides/">Other guides to data management</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579">
-<div class="ancestor-wrapper"><a href="/static_output/plan/funder-requirements/">Funder requirements</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-457">
-<div class="ancestor-wrapper">
-<a href="/static_output/store/">Store your data</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-457 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewbox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>
-</div>
-<!-- .ancestor-wrapper -->
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583">
-<div class="ancestor-wrapper"><a href="/static_output/store/organize/">Organize your files</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580">
-<div class="ancestor-wrapper"><a href="/static_output/store/backups/">Data storage, backups, &amp; security</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-48 current_page_item menu-item-581">
-<div class="ancestor-wrapper"><a href="/static_output/store/documentation/" aria-current="page">Documentation &amp; metadata</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582">
-<div class="ancestor-wrapper"><a href="/static_output/store/formats/">File formats for long-term access</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589">
-<div class="ancestor-wrapper"><a href="/static_output/store/electronic-lab-notebooks/">Electronic Lab Notebooks (ELNs)</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590">
-<div class="ancestor-wrapper"><a href="/static_output/store/osf/">Open Science Framework</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-576">
-<div class="ancestor-wrapper">
-<a href="/static_output/share/">Share your data</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-576 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewbox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>
-</div>
-<!-- .ancestor-wrapper -->
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573">
-<div class="ancestor-wrapper"><a href="/static_output/plan/why/">Why manage &amp; share your data?</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585">
-<div class="ancestor-wrapper"><a href="/static_output/share/find-repository/">Find a data repository</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586">
-<div class="ancestor-wrapper"><a href="/static_output/share/journal-requirements/">Journal requirements</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584">
-<div class="ancestor-wrapper"><a href="/static_output/share/confidentiality/">Confidentiality &amp; intellectual property</a></div>
-<!-- .ancestor-wrapper -->
-</li>
-</ul>
-</li>
 
-						</ul>
+		<div id="stage" class="inner" role="main">
 
-					</nav>
-
-					
+			<div class="header-section group ">
+	
+		<div class="child-header-short">
+			<div class="page-header-internal">
+				<div class="child-page-title"><a href="/static_output/">Data management</a></div>
 			</div>
-<!-- .menu-top -->
 
-			<div class="menu-bottom">
-
-				
-			</div>
-<!-- .menu-bottom -->
+			<div class="header-bg-image-short">
+<!-- site hero -->	<img src="/static_output/wp-content/uploads/2016/10/cropped-data-management-hero.jpg" alt="Data management">
+</div>
 
 		</div>
-<!-- .menu-wrapper -->
 
 	</div>
-<!-- .menu-modal-inner -->
 
-</div>
-<!-- .menu-modal -->
-
-<main id="site-content">
 
 	
-<article class="post-48 page type-page status-publish hentry" id="post-48">
+	<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand mobile-display">
+				View Menu			</a>
+		</div>
 
+				<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul id="menu-navigation" class="nav navbar-nav nav-second">
+<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-574"><a title="Home" href="/static_output/">Home</a></li>
+<li id="menu-item-575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575 dropdown">
+<a title="Services" href="/static_output/services/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Services <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a title="List of services" href="/static_output/services/">List of services</a></li>
+	<li id="menu-item-578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-578"><a title="Workshops" href="/static_output/services/workshops/">Workshops</a></li>
+	<li id="menu-item-577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577"><a title="Information for visitors" href="/static_output/services/visitors/">Information for visitors</a></li>
+</ul>
+</li>
+<li id="menu-item-456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-456 dropdown">
+<a title="Make a plan" href="/static_output/plan/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Make a plan <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a title="Write a data management plan" href="/static_output/plan/write/">Write a data management plan</a></li>
+	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a title="Other guides to data management" href="/static_output/plan/guides/">Other guides to data management</a></li>
+	<li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a title="Funder requirements" href="/static_output/plan/funder-requirements/">Funder requirements</a></li>
+</ul>
+</li>
+<li id="menu-item-457" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-457 dropdown">
+<a title="Store your data" href="/static_output/store/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Store your data <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a title="Organize your files" href="/static_output/store/organize/">Organize your files</a></li>
+	<li id="menu-item-580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-580"><a title="Data storage, backups, &amp; security" href="/static_output/store/backups/">Data storage, backups, &amp; security</a></li>
+	<li id="menu-item-581" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-48 current_page_item menu-item-581 active"><a title="Documentation &amp; metadata" href="/static_output/store/documentation/">Documentation &amp; metadata</a></li>
+	<li id="menu-item-582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a title="File formats for long-term access" href="/static_output/store/formats/">File formats for long-term access</a></li>
+	<li id="menu-item-589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a title="Electronic Lab Notebooks (ELNs)" href="/static_output/store/electronic-lab-notebooks/">Electronic Lab Notebooks (ELNs)</a></li>
+	<li id="menu-item-590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590"><a title="Open Science Framework" href="/static_output/store/osf/">Open Science Framework</a></li>
+</ul>
+</li>
+<li id="menu-item-576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-576 dropdown">
+<a title="Share your data" href="/static_output/share/" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Share your data <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a title="Why manage &amp; share your data?" href="/static_output/plan/why/">Why manage &amp; share your data?</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a title="Find a data repository" href="/static_output/share/find-repository/">Find a data repository</a></li>
+	<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a title="Journal requirements" href="/static_output/share/journal-requirements/">Journal requirements</a></li>
+	<li id="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a title="Confidentiality &amp; intellectual property" href="/static_output/share/confidentiality/">Confidentiality &amp; intellectual property</a></li>
+</ul>
+</li>
+</ul></div>
+
+		</div>
+</nav>
+<script>
+	$('.dropdown-toggle').click(function() {
+		var location = $(this).attr('href');
+		window.location.href = location;
+		return false;
+});
+</script>
+
+<!-- #site-navigation -->
+
+
+			
+			
+				<div id="content" class="content has-sidebar">
+
+				
+<div class="main-content content-main">
 	
-<header class="entry-header has-text-align-center header-footer-group">
-
-	<div class="entry-header-inner section-inner medium">
-
-		<h1 class="entry-title">Documentation &amp; metadata</h1>
-	</div>
-<!-- .entry-header-inner -->
-
-</header><!-- .entry-header -->
-
-	<div class="post-inner thin ">
-
-		<div class="entry-content">
-
-			<p>Data documentation, also known as metadata, helps you understand your data in detail, and also helps other researchers find, use, and properly cite your data.</p>
+	<div class="entry-content">
+		<h1>Documentation &amp; metadata</h1>
+<p>Data documentation, also known as metadata, helps you understand your data in detail, and also helps other researchers find, use, and properly cite your data.</p>
 <p>Various <a href="http://www.dcc.ac.uk/resources/metadata-standards">metadata standards</a> are available for particular file formats and disciplines. General guidelines are provided below. For more details, <a title="Workshops" href="/static_output/data-management/services/workshops/">see materials from our workshop on file organization</a>. For help in documenting your data, email <a href="mailto:data-management@mit.edu">data-management@mit.edu</a>.</p>
 <h2>Important things to do while you collect or create your data</h2>
 <ul>
@@ -337,49 +442,15 @@ How the data was generated, including equipment or software used, experimental p
 <li>Social Science Data Editor&#8217;s released <a href="https://doi.org/10.5281/zenodo.4319999">A template README for social science replication packages</a>
 </li>
 </ul>
-
-		</div>
-<!-- .entry-content -->
-
 	</div>
-<!-- .post-inner -->
 
-	<div class="section-inner">
-		
-	</div>
-<!-- .section-inner -->
+</div>
 
-	
-		<div class="comments-wrapper section-inner">
+					
 
-				<div id="respond" class="comment-respond">
-		<h2 id="reply-title" class="comment-reply-title">Leave a Reply</h2>
-<p class="must-log-in">You must be <a href="/static_output/wp-login.php?redirect_to=http%3A%2F%2F%2Fstore%2Fdocumentation%2F">logged in</a> to post a comment.</p>	</div>
-<!-- #respond -->
-	
-		</div>
-<!-- .comments-wrapper -->
+	<div id="secondary" class="widget-area sidebar" role="complementary">
 
-		
-</article><!-- .post -->
-
-</main><!-- #site-content -->
-
-
-	<div class="footer-nav-widgets-wrapper header-footer-group">
-
-		<div class="footer-inner section-inner">
-
-			
-			
-				<aside class="footer-widgets-outer-wrapper">
-
-					<div class="footer-widgets-wrapper">
-
-						
-							<div class="footer-widgets column-one grid-item">
-								<div class="widget-odd widget-first widget-1 widget widget_black_studio_tinymce"><div class="widget-content">
-<h2 class="widget-title subheading heading-size-3">Questions?</h2>
+		<aside id="black-studio-tinymce-1" class="widget-odd widget-first widget-1 widget widget_black_studio_tinymce" role="complementary"><h2 class="widget-title">Questions?</h2>
 <div class="textwidget">
 <strong>MIT users</strong>
 <ul>
@@ -414,21 +485,11 @@ How the data was generated, including equipment or software used, experimental p
 </li>
 </ul>
 -->
-</div>
-</div></div>
-<div class="widget-even widget-last widget-2 widget widget_black_studio_tinymce"><div class="widget-content">
-<h2 class="widget-title subheading heading-size-3">Faculty successes</h2>
+</div></aside><aside id="black-studio-tinymce-2" class="widget-even widget-2 widget widget_black_studio_tinymce" role="complementary"><h2 class="widget-title">Faculty successes</h2>
 <div class="textwidget">
 <p>"I've had thousands of downloads of my published data - I am impressed that it's been so useful to others!"</p>
 <p><em>—Esther Duflo, Abdul Latif Jameel Professor of Poverty Alleviation and Development Economics, MIT</em></p>
-</div>
-</div></div>							</div>
-
-						
-						
-							<div class="footer-widgets column-two grid-item">
-								<div class="widget-odd widget-first widget-1 widget widget_black_studio_tinymce"><div class="widget-content">
-<h2 class="widget-title subheading heading-size-3">Need help creating your data management plan?</h2>
+</div></aside><aside id="black-studio-tinymce-3" class="widget-odd widget-3 widget widget_black_studio_tinymce" role="complementary"><h2 class="widget-title">Need help creating your data management plan?</h2>
 <div class="textwidget">
 <p><strong>MIT users</strong><br>
 Try the <a href="/static_output/data-management/plan/write/">DMPTool</a></p>
@@ -436,65 +497,155 @@ Try the <a href="/static_output/data-management/plan/write/">DMPTool</a></p>
 </strong></p>
 <p><strong>Visitors</strong><br>
 <a href="/static_output/data-management/services/visitors/">Information for visitors</a></p>
-</div>
-</div></div>
-<div class="widget-even widget-last widget-2 widget widget_black_studio_tinymce"><div class="widget-content">
-<h2 class="widget-title subheading heading-size-3">Accessible materials</h2>
+</div></aside><aside id="black-studio-tinymce-4" class="widget-even widget-last widget-4 widget widget_black_studio_tinymce" role="complementary"><h2 class="widget-title">Accessible materials</h2>
 <div class="textwidget">
 <p>The Data Management Services team is committed to ensuring the digital accessibility of our publicly available materials. We make our best effort to provide accessible PDFs of our resources and workshop materials, but there may be some limitations. We welcome your feedback as we continue to improve our materials. Contact us at: <a href="&quot;mailto:data-management@mit.edu">data-management@mit.edu</a>.</p>
-</div>
-</div></div>							</div>
+</div></aside>
+	</div>
+<!-- #secondary -->
 
-						
-					</div>
-<!-- .footer-widgets-wrapper -->
 
-				</aside><!-- .footer-widgets-outer-wrapper -->
+			</div>
 
 			
 		</div>
-<!-- .footer-inner -->
+<!-- end div#stage -->
+
+	
+<footer>
+	
+	<div class="footer-main flex-container">
+	<div class="links-all flex-container">
+		<div class="flex-item">
+			<h4><a href="/static_output/search">Search</a></h4>
+			<a href="/static_output/quicksearch" class="link-sub">Quick search</a>
+			<a href="/static_output/barton" class="link-sub">Barton catalog</a>
+			<a href="/static_output/vera" class="link-sub">Vera: E-journals &amp; databases</a>
+			<a href="/static_output/worldcat" class="link-sub">WorldCat</a>
+			<a href="/static_output/barton-reserves" class="link-sub">Course reserves</a>
+			<a href="/static_output/site-search" class="link-sub">Site search</a>
+			<a href="/static_output/search" class="link-sub">More search options</a>
+		</div>
+		<div class="flex-item">
+			<h4><a href="/static_output/hours">Hours &amp; locations</a></h4>
+			<a href="/static_output/hours" class="link-sub">Hours</a>
+			<a href="/static_output/locations" class="link-sub">Map of locations</a>
+			<a href="/static_output/study" class="link-sub">Study spaces</a>
+			<a href="/static_output/exhibits" class="link-sub">Exhibits &amp; galleries</a>
+		</div>
+		<div class="flex-item">
+			<h4><a href="/static_output/borrow">Borrow &amp; request</a></h4>
+			<a href="/static_output/barton-account" class="link-sub">Your Account</a>
+			<a href="/static_output/reserves" class="link-sub">Reserves &amp; TIP</a>
+			<a href="/static_output/otherlibraries" class="link-sub">Visit non-MIT libraries</a>
+			<a href="/static_output/borrow" class="link-sub">More borrow &amp; request options</a>
+		</div>
+		<div class="flex-item">
+			<h4><a href="/static_output/research-support">Research support</a></h4>
+			<a href="/static_output/ask" class="link-sub">Ask us</a>
+			<a href="/static_output/experts" class="link-sub">Research guides &amp; expert librarians</a>
+			<a href="/static_output/scholarly" class="link-sub">Scholarly publishing</a>
+			<a href="/static_output/references" class="link-sub">Citation &amp; writing software</a>
+			<a href="/static_output/research-support" class="link-sub">More research support options</a>
+		</div>
+		<div class="flex-item">
+			<h4><a href="/static_output/about">About us</a></h4>
+			<a href="/static_output/contact" class="link-sub">Contact us</a>
+			<a href="/static_output/news" class="link-sub">News</a>
+			<a href="/static_output/events" class="link-sub">Classes &amp; events</a>
+			<a href="/static_output/use-policies" class="link-sub">Use policy</a>
+			<a href="/static_output/giving" class="link-sub">Giving</a>
+			<a href="/static_output/about" class="link-sub">More about us</a>
+		</div>
+	</div>
+<!-- end div.links-all -->
+
+	<div class="identity flex-container">
+		<a href="/static_output/" class="logo-mit-lib">
+			<svg xmlns="http://www.w3.org/2000/svg" width="193.9" height="77.55" viewbox="0 0 193.9 77.55"><title>MIT Libraries logo</title>
+<path d="M5.3,5.55H17.2L21.55,21.2q0.25,0.85.58,2.22T22.8,26.1q0.4,1.55.8,3.25h0.1q0.35-1.7.75-3.25,0.3-1.3.65-2.67t0.6-2.22L30.1,5.55h12V41.3H34V21.58q0-1.17,0-2.37,0-1.4.1-3.05H34q-0.4,1.55-.7,2.85t-0.53,2.22q-0.28,1.08-.42,1.58L27.25,41.3h-7.3l-5.1-18.45q-0.15-.5-0.45-1.6T13.85,19q-0.3-1.3-.65-2.85H13.1q0,1.65,0,3.05,0,1.2.08,2.4t0,1.75v18h-8V5.55Zm40,0h8.85V41.3H45.32V5.55ZM67.4,13H57V5.55H86.75V13H76.25V41.3H67.4V13ZM5.3,46.55h8.85V74.8H30.82v7.5H5.3V46.55Zm28.7,0h8.15v6.6H34v-6.6ZM34,56.7h8.15V82.3H34V56.7ZM61,83.1a9.84,9.84,0,0,1-4.55-1,7.87,7.87,0,0,1-3.2-3h-0.1V82.3h-7.8V46.55h8.15v13h0.15A9.45,9.45,0,0,1,56.55,57a8.63,8.63,0,0,1,4.37-1,9.89,9.89,0,0,1,4.53,1,10.16,10.16,0,0,1,3.45,2.85,13.44,13.44,0,0,1,2.2,4.3,17.91,17.91,0,0,1,.78,5.38,19.49,19.49,0,0,1-.78,5.72,12.5,12.5,0,0,1-2.2,4.28,9.47,9.47,0,0,1-3.45,2.67A10.66,10.66,0,0,1,61,83.1Zm-2.3-6.45a4.14,4.14,0,0,0,3.67-1.92,9.45,9.45,0,0,0,1.28-5.27,9.74,9.74,0,0,0-1.28-5.3,4.19,4.19,0,0,0-3.77-2,4.44,4.44,0,0,0-4,2.1,9.66,9.66,0,0,0-1.33,5.25,8.53,8.53,0,0,0,1.45,5.17A4.69,4.69,0,0,0,58.67,76.65ZM73.81,56.7h7.8v4h0.15a9.63,9.63,0,0,1,3-3.35,7.29,7.29,0,0,1,4-1,4.41,4.41,0,0,1,1.6.2v7h-0.2a7.36,7.36,0,0,0-6,1.27Q82,66.6,82,70.8V82.3H73.81V56.7ZM99.76,83a12,12,0,0,1-3.53-.5A7.54,7.54,0,0,1,93.46,81a7,7,0,0,1-1.8-2.45A8.11,8.11,0,0,1,91,75.15a7.29,7.29,0,0,1,.78-3.52,6.67,6.67,0,0,1,2.12-2.35A10.55,10.55,0,0,1,97,67.85a25.72,25.72,0,0,1,3.77-.75,24.65,24.65,0,0,0,5-1,1.92,1.92,0,0,0,1.45-1.85,2.57,2.57,0,0,0-.83-2,3.92,3.92,0,0,0-2.67-.75,4.45,4.45,0,0,0-3,.85,3.67,3.67,0,0,0-1.2,2.45h-7.5a8.46,8.46,0,0,1,.8-3.4,8.17,8.17,0,0,1,2.17-2.8,10.56,10.56,0,0,1,3.58-1.9,16.34,16.34,0,0,1,5-.7,19.62,19.62,0,0,1,4.9.52,9.73,9.73,0,0,1,3.4,1.58,7.29,7.29,0,0,1,2.45,3,10.63,10.63,0,0,1,.8,4.25V78.3a13,13,0,0,0,.17,2.42,1.78,1.78,0,0,0,.73,1.23V82.3h-7.9a3.37,3.37,0,0,1-.5-1.12,14.64,14.64,0,0,1-.35-1.72h-0.1A8.47,8.47,0,0,1,104.44,82,9.92,9.92,0,0,1,99.76,83Zm2.6-5.2a5.45,5.45,0,0,0,3.73-1.25,4.23,4.23,0,0,0,1.42-3.35v-3a11.85,11.85,0,0,1-1.87.73q-1.08.33-2.33,0.63a10.45,10.45,0,0,0-3.4,1.27,2.47,2.47,0,0,0-1.05,2.17,2.42,2.42,0,0,0,1,2.2A4.5,4.5,0,0,0,102.36,77.75Zm15.87-21H126v4h0.15a9.63,9.63,0,0,1,3-3.35,7.29,7.29,0,0,1,4-1,4.41,4.41,0,0,1,1.6.2v7h-0.2a7.36,7.36,0,0,0-6,1.27q-2.23,1.83-2.23,6V82.3h-8.15V56.7Zm18.94-10.15h8.15v6.6h-8.15v-6.6Zm0,10.15h8.15V82.3h-8.15V56.7Zm24,26.35a15.16,15.16,0,0,1-5.7-1,12.12,12.12,0,0,1-4.3-2.85,12.66,12.66,0,0,1-2.7-4.33,15.06,15.06,0,0,1-1-5.4,14.72,14.72,0,0,1,1-5.33,12.71,12.71,0,0,1,2.7-4.3A12.46,12.46,0,0,1,155.3,57a14.58,14.58,0,0,1,10.28-.17,12.28,12.28,0,0,1,3.83,2.35,12.76,12.76,0,0,1,3.42,5.33,20.72,20.72,0,0,1,1.08,7.13H155.5a7.52,7.52,0,0,0,1.8,4.1,5.14,5.14,0,0,0,4,1.5,4.81,4.81,0,0,0,2.65-.68,4.3,4.3,0,0,0,1.6-1.87h8a9.47,9.47,0,0,1-1.5,3.33,10.65,10.65,0,0,1-2.8,2.73,12.12,12.12,0,0,1-3.58,1.75A15.22,15.22,0,0,1,161.15,83Zm4.5-16.3a6,6,0,0,0-1.55-3.65,4.39,4.39,0,0,0-3.3-1.35,4.66,4.66,0,0,0-3.6,1.35,7,7,0,0,0-1.65,3.65h10.1Zm21.9,16.35q-5.65,0-8.95-2.42A8.35,8.35,0,0,1,175.1,74h7.7a4.15,4.15,0,0,0,1.45,2.85,5.09,5.09,0,0,0,3.25,1,5.63,5.63,0,0,0,2.92-.65,2.09,2.09,0,0,0,1.08-1.9,1.82,1.82,0,0,0-.55-1.37,4.08,4.08,0,0,0-1.45-.85,10.92,10.92,0,0,0-2.08-.5q-1.17-.17-2.42-0.42-1.65-.3-3.3-0.72a10.14,10.14,0,0,1-3-1.28,6.33,6.33,0,0,1-2.12-2.27,7.45,7.45,0,0,1-.8-3.68,7.1,7.1,0,0,1,.87-3.55A7.64,7.64,0,0,1,179,58a11.18,11.18,0,0,1,3.53-1.55,17,17,0,0,1,4.28-.52q5.45,0,8.35,2.2a8,8,0,0,1,3.2,6h-7.5a3,3,0,0,0-1.33-2.37,5.48,5.48,0,0,0-2.78-.62,5.1,5.1,0,0,0-2.52.58,1.9,1.9,0,0,0-1,1.78,1.33,1.33,0,0,0,.5,1.1,4.21,4.21,0,0,0,1.35.67,14.86,14.86,0,0,0,2,.48l2.33,0.4q1.7,0.3,3.42.73A10.59,10.59,0,0,1,196,68.2a7.05,7.05,0,0,1,2.32,2.42,7.75,7.75,0,0,1,.9,4A7.35,7.35,0,0,1,195.9,81a11.75,11.75,0,0,1-3.7,1.6A18.75,18.75,0,0,1,187.54,83.1Z" transform="translate(-5.3 -5.55)"></path></svg>
+			<span class="sr">MIT Libraries</span>
+		</a><!-- End MIT Libraries Logo -->
+
+		<div class="social flex-container">
+			<p class="text-find-us sr">Find us on</p>
+				<a href="https://twitter.com/mitlibraries" title="Twitter">
+					<svg class="icon-social--twitter" width="2048" height="2048" viewbox="-192 -384 2048 2048" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 -1) translate(0 -1280)"><path d="M1620 1128q-67 -98 -162 -167q1 -14 1 -42q0 -130 -38 -259.5t-115.5 -248.5t-184.5 -210.5t-258 -146t-323 -54.5q-271 0 -496 145q35 -4 78 -4q225 0 401 138q-105 2 -188 64.5t-114 159.5q33 -5 61 -5q43 0 85 11q-112 23 -185.5 111.5t-73.5 205.5v4q68 -38 146 -41 q-66 44 -105 115t-39 154q0 88 44 163q121 -149 294.5 -238.5t371.5 -99.5q-8 38 -8 74q0 134 94.5 228.5t228.5 94.5q140 0 236 -102q109 21 205 78q-37 -115 -142 -178q93 10 186 50z" fill="black"></path></g></svg>
+					<span class="sr">Twitter</span>
+				</a><!-- End Twitter -->
+
+				<a href="https://www.facebook.com/mitlib" title="Facebook">
+					<svg class="icon-social--facebook" width="2048" height="2048" viewbox="-640 -384 2048 2048" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 -1) translate(0 -1280)"><path d="M511 980h257l-30 -284h-227v-824h-341v824h-170v284h170v171q0 182 86 275.5t283 93.5h227v-284h-142q-39 0 -62.5 -6.5t-34 -23.5t-13.5 -34.5t-3 -49.5v-142z" fill="black"></path></g></svg>
+					<span class="sr">Facebook</span>
+				</a><!-- End Facebook -->
+
+				<a href="https://instagram.com/mitlibraries/" title="Instagram">
+					<svg class="icon-social--instagram" viewbox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve"><path id="Instagram_10_" fill="#FFFFFF" d="M95.1,103.9H24.9c-0.2,0-0.4-0.1-0.6-0.1c-3.9-0.5-7.1-3.4-8-7.2
+c-0.1-0.4-0.2-0.9-0.2-1.3V24.8c0-0.2,0.1-0.3,0.1-0.5c0.6-3.9,3.4-7.1,7.3-8c0.4-0.1,0.8-0.2,1.3-0.2h70.4c0.2,0,0.3,0.1,0.5,0.1
+c4,0.5,7.2,3.6,8,7.5c0.1,0.4,0.1,0.8,0.2,1.2v70.2c-0.1,0.4-0.1,0.8-0.2,1.2c-0.7,3.6-3.6,6.6-7.2,7.4
+C96,103.7,95.5,103.8,95.1,103.9z M25.6,51.7v0.2c0,13,0,26,0,38.9c0,1.9,1.6,3.5,3.5,3.5c20.6,0,41.2,0,61.8,0
+c1.9,0,3.5-1.6,3.5-3.5c0-13,0-25.9,0-38.9v-0.3H86c1.2,3.8,1.5,7.6,1.1,11.5c-0.5,3.9-1.7,7.6-3.8,10.9c-2.1,3.4-4.7,6.2-8,8.4
+c-8.5,5.8-19.6,6.3-28.6,1.2c-4.5-2.5-8.1-6.1-10.6-10.7c-3.7-6.8-4.3-14-2.1-21.4C31.2,51.7,28.4,51.7,25.6,51.7L25.6,51.7z
+ M60,42.2c-9.7,0-17.6,7.8-17.8,17.5c-0.1,9.9,7.8,17.8,17.4,18c9.9,0.2,18-7.7,18.2-17.4C78,50.4,70,42.2,60,42.2L60,42.2z
+ M86.7,38.7L86.7,38.7c1.4,0,2.9,0,4.3,0c1.9,0,3.4-1.6,3.4-3.5c0-2.8,0-5.5,0-8.3c0-2-1.6-3.6-3.6-3.6c-2.8,0-5.5,0-8.3,0
+c-2,0-3.6,1.6-3.6,3.6c0,2.7,0,5.5,0,8.2c0,0.4,0.1,0.8,0.2,1.2c0.5,1.5,1.8,2.4,3.5,2.4C84,38.7,85.3,38.7,86.7,38.7L86.7,38.7z"></path></svg>
+					<span class="sr">Instagram</span>
+
+				</a><!-- End Instagram -->
+
+				<a href="https://www.youtube.com/user/MITLibraries" title="YouTube">
+					<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" class="icon-social--youtube"><path fill="black" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" class=""></path></svg>
+					<span class="sr">YouTube</span>
+				</a><!-- End YouTube -->
+
+				<a href="https://libguides.mit.edu/mit-feeds" title="RSS">
+					<svg class="icon-social--rss" width="2048" height="2048" viewbox="-320 -384 2048 2048" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 -1) translate(0 -1280)"><path d="M384 192q0 -80 -56 -136t-136 -56t-136 56t-56 136t56 136t136 56t136 -56t56 -136zM896 69q2 -28 -17 -48q-18 -21 -47 -21h-135q-25 0 -43 16.5t-20 41.5q-22 229 -184.5 391.5t-391.5 184.5q-25 2 -41.5 20t-16.5 43v135q0 29 21 47q17 17 43 17h5q160 -13 306 -80.5 t259 -181.5q114 -113 181.5 -259t80.5 -306zM1408 67q2 -27 -18 -47q-18 -20 -46 -20h-143q-26 0 -44.5 17.5t-19.5 42.5q-12 215 -101 408.5t-231.5 336t-336 231.5t-408.5 102q-25 1 -42.5 19.5t-17.5 43.5v143q0 28 20 46q18 18 44 18h3q262 -13 501.5 -120t425.5 -294 q187 -186 294 -425.5t120 -501.5z" fill="black"></path></g></svg>
+					<span class="sr">RSS</span>
+				</a><!-- End RSS -->
+
+		</div>
+<!-- end div.social -->
+
+		<div class="links-primary flex-container">
+			<span><a href="https://libraries.mit.edu/privacy" class="link-sub">Privacy</a></span>
+			<span><a href="https://libraries.mit.edu/permissions" class="link-sub">Permissions</a></span>
+			<span><a href="https://libraries.mit.edu/accessibility" class="link-sub">Accessibility</a></span>
+		</div>
+<!-- End div.links-primary -->
 
 	</div>
-<!-- .footer-nav-widgets-wrapper -->
+<!-- End div.identity -->
+</div>
 
+	<div class="footer-info-institute">
+		<a class="link-logo-mit" href="https://www.mit.edu/">
+			<span class="sr">MIT</span>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="54" height="28" viewbox="0 0 54 28" enable-background="new 0 0 54 28" xml:space="preserve" class="logo-mit"><rect x="28.9" y="8.9" width="5.8" height="19.1" class="color"></rect><rect width="5.8" height="28"></rect><rect x="9.6" width="5.8" height="18.8"></rect><rect x="19.3" width="5.8" height="28"></rect><rect x="38.5" y="8.9" width="5.8" height="19.1"></rect><rect x="38.8" width="15.2" height="5.6"></rect><rect x="28.9" width="5.8" height="5.6"></rect></svg>
+		</a><!-- End MIT Logo -->
+		
+		<div class="about-mit">
+			<span class="item">Massachusetts Institute of Technology</span>
+		</div>
+<!-- End div.about-mit -->
+		
+		<div class="license">Content created by the MIT Libraries, <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> unless otherwise noted. <a href="https://libraries.mit.edu/research-support/notices/copyright-notify/">Notify us about copyright concerns</a>.
+	</div>
+<!-- End div.footer-info-institure -->
 
-			<footer id="site-footer" class="header-footer-group">
-
-				<div class="section-inner">
-
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							2022							<a href="/static_output/">Data management</a>
-						</p>
-<!-- .footer-copyright -->
-
-						
-						<p class="powered-by-wordpress">
-							<a href="https://wordpress.org/">
-								Powered by WordPress							</a>
-						</p>
-<!-- .powered-by-wordpress -->
-
-					</div>
-<!-- .footer-credits -->
-
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							To the top <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							Up <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-short -->
-					</a><!-- .to-the-top -->
-
-				</div>
-<!-- .section-inner -->
-
-			</footer><!-- #site-footer -->
-
-			<script>
-	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-	</script>
 	
-	</body>
+
+</div>
+<!-- End div.wrap-page -->
+
+<script type="text/javascript" src="/static_output/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.1" id="moment-js"></script>
+<script type="text/javascript" id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script type="text/javascript" src="/static_output/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
+<script type="text/javascript" src="//polyfill.io/v3/polyfill.js?version=3.52.1&#038;ver=3.52.1" id="polyfill-js"></script>
+<script type="text/javascript" src="/static_output/wp-content/themes/libraries/js/hours-loader.js?ver=1.10.0" id="hours-loader-js"></script>
+<script type="text/javascript" src="/static_output/wp-content/themes/libraries/js/build/production.min.js?ver=1.10.0" id="productionJS-js"></script>
+</footer>
+</div>
+</body>
 </html>
