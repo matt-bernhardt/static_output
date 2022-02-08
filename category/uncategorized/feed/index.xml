@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; Static WordPress Playground</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="/static_output/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/static_output/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 08 Feb 2022 16:18:14 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=5.9</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/2022/02/08/hello-world/</link>
-					<comments>/2022/02/08/hello-world/#comments</comments>
+		<link>/static_output/2022/02/08/hello-world/</link>
+					<comments>/static_output/2022/02/08/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 08 Feb 2022 16:18:14 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">/static_output/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/02/08/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/static_output/2022/02/08/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

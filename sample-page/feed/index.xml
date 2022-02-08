@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Sample Page	</title>
-	<atom:link href="/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="/static_output/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>/static_output/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Tue, 08 Feb 2022 16:18:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
