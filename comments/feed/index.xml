@@ -11,11 +11,11 @@
 	<atom:link href="/static_output/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/static_output/</link>
 	<description>Helping MIT faculty and researchers manage, store, and share data they produce</description>
-	<lastBuildDate>Tue, 08 Feb 2022 20:34:02 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 18 Mar 2022 15:45:56 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9</generator>
+	<generator>https://wordpress.org/?v=5.9.2</generator>
 </channel>
 </rss>
